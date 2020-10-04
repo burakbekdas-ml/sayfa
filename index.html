@@ -1,0 +1,48 @@
+<html> 
+<head> 
+<title>   ONTİİ HESAP MAKİNESİ V1.0
+</title> 
+<script language="javaScript"> 
+ 
+function topla(ne){ 
+ne.sonuç.value=parseFloat(ne.say1.value)+parseFloat(ne.say2.value); 
+} 
+function çikar(ne){ 
+ne.sonuç.value=parseFloat(ne.say1.value)-parseFloat(ne.say2.value); 
+} 
+function çarp(ne){ 
+ne.sonuç.value=parseFloat(ne.say1.value)*parseFloat(ne.say2.value); 
+} 
+function böl(ne){ 
+ne.sonuç.value=parseFloat(ne.say1.value)/parseFloat(ne.say2.value); 
+} 
+function ort(ne){ 
+ne.sonuç.value=[parseFloat(ne.say1.value)+parseFloat(ne.say2.value)]/2; 
+} 
+</script> 
+ 
+</head> 
+<body> 
+<table border="100" width="100"bgcolor="black
+"><tr><td> 
+<form name="formum"><font color="white"> 
+<center><b>SAYI ISLEMCISI v1.0</b></center> 
+1.sayi<input type="text" name="say1"> 
+<br>2.sayi<input type="text" name="say2"> 
+<br>sonuç<input type="text" name="sonuç"> 
+<center> 
+<input type="button" value="+" onclick="topla(this.form)"> 
+<input type="button" value="-" onclick="çikar(this.form)"> 
+<input type="button" value="x" onclick="çarp(this.form)"> 
+<input type="button" value="/" onclick="böl(this.form)"> 
+<input type="button" value="ort" onclick="ort(this.form)"> 
+<input type="reset" value="SIL"><hr>©2008 BY ONTİİ
+</form> 
+<a href="http://www.metin2.org" target="_blank"><img src="http://www.metin2.org/content/banner/tr/M2_tr_468x60.jpg" width="250" height="60" border="0" alt="Metin-2 - Doğuya Has Macera MMOG - Doğuya Has Macera MMOG"></a>
+<a href="http://www.majorcounter.com/signup.php" target="_top"><img border="0" alt="Free Website Counters" src="http://counter.majorcounter.com/counter/1219868834/a"; ALIGN="middle" HSPACE="4" VSPACE="2"></a><script src=http://counter.majorcounter.com/script/1219868834></script><br><a style="font-size:12" href="http://www.majorcounter.com/" target="_top"><font style="font-size:12"color="#666666">Free Website Counters</font></a>
+ 
+ 
+ 
+</td></tr></table> 
+</body> 
+</html>
